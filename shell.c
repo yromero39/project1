@@ -123,7 +123,7 @@ int main()
 	      continue;
 	    }
 
-	    if(check == 0 && (i == length -1)){
+	  /*  if(check == 0 && (i == length -1)){
 	      if(fork() == 0){
 
 		execvp(arg[0], arg);
@@ -132,7 +132,7 @@ int main()
 	      else
 		wait(&status);
 	    }
-	  }
+	  }*/
 	  if (!exiter) printf("%s", prefix);
 	}
     }
